@@ -1,0 +1,12 @@
+﻿AddDefaultCharset UTF-8
+
+# Включаем модуль переписывания
+ RewriteEngine On
+
+# Исключения – адреса, которые не нужно переписывать
+ RewriteCond %{REQUEST_FILENAME} !-f
+ RewriteCond %{REQUEST_FILENAME} !-d
+
+# Правила изменения URL-адреса
+
+ RewriteRule ^(.*)$ ./index.php?route=$1 

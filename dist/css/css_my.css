@@ -1,0 +1,25 @@
+body{
+	font-size: 130%;
+}
+.form-control-my{
+	height: 100%;
+}
+.price{
+	width: 100px;
+}
+.my-input-group{
+	width: 20%;
+}
+.block-right-my{
+	float: right;
+}
+.navbar-header-my{
+	width: 100%
+}
+.navbar-brand-my{
+	list-style-type: none;
+	height: 40px;
+}
+.btn-my{
+	font-size: 10px;
+}
